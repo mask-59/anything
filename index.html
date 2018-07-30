@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="sonar.css" />
+    <script src="jquery.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <div id="container">
+    <div class="slowcars" id='lane1'>
+        <input type="range" name='slowcars' min="1" max="100000" value="30000" class="sliders " id="slowcars">
+    </div>
+    
+    <div class="fastcar" id='overtakelane'>
+        <input type="range" name='fastcar' min="1" max="100000" value="0" class="sliderf" id="fastcar">
+        </div>
+    
+    <div class="oncommingcar" id='lane2'>
+        <input type="range" name='' min="1" max="100000" value="100000" class="slidero" id="oncommingcar">
+    </div>
+</div >
+<div id='speeddetails'>
+Oncooming car speed: <input type="number" id='ospeed' value="0"></input>
+<br>Slow car speed: <input type="number" id='sspeed' value="0"></input>
+<br>Fast car speed: <input type="number" id='fspeed' value="0"></input>
+</div>
+<svg id='s'>
+  <circle></circle>
+  <circle></circle>
+  
+</svg>
+<svg id='f'>
+        <circle></circle>
+        <circle></circle>
+       
+      </svg>
+      <svg id='o'>
+            <circle></circle>
+            <circle></circle>
+           
+          </svg>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../materialize/css/materialize.min.css" />
+    <script src="jquery.js"></script>
+    <script src="sub.js"></script>
+</head>
+<body style="background-color:lightgrey">
+    <div class='row'>
+        <div class container>
+            <div class card>
+            <div class='col m8 s12 l8 center container'>
+            <div class='card' style="height:500px">
+                <br>
+                <p><span id='cartype'>fast </span>OVERTAKE RISK CALCULATOR</p>
+                
+                <p></p>
+                <div class='container center container'>
+                        <div class='card' style="height:200px">
+                                <H5>ADVICE: <br><SPAN id='advice'></SPAN></H5>
+                              <br> overtake distance:<span id='ov_dist'></span>
+                              <br> overtake speed  <span id='ov_speed'></span>
+                              <br> collision distance:<span id='coll_dist'></span>
+                              <br> collision speed  <span id='coll_speed'></span>
+                    </div>
+                </div>
+                <H6>SPEED LEVER  <SPAN></SPAN></H6>
+                <BR>
+                   <div class="container">
+                        <div class="col s12 l12 m12" id="speedlabel">000</div> Km/h
+                       <div class="col s12 l12 m12"><input type="range" min="1" max="200" value="0" style="height: 100px"   id="speedlever" '
+                        '></div>
+                      
+                    </div> 
+            </div>
+           
+            </div>
+        </div>
+    </div>
+</body>
+</html>
