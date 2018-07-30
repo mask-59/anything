@@ -40,5 +40,5 @@ $.getJSON(url, function(data, status){
 };
 
 window.setInterval(function(){
-    databinder();
+    databinder();;;
 }, 100);
